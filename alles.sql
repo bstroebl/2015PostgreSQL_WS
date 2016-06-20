@@ -1,8 +1,7 @@
 -- Hinweis: Öffnen Sie diese Datei im Editor medit
 -- Zunächst: Neue Datenbank anlegen, z.B. workshop
 -- Laden der PostGIS-Funktionen
-CREATE EXTENSION postgis
-SCHEMA public VERSION "2.1.3";
+CREATE EXTENSION postgis;
 
 /* AAAAAAAAAAAAAAAAAAA */
 -- Anlegen der Tabelle für die Schutzgebiete:
